@@ -1,0 +1,16 @@
+{
+    "name": "php/oop",
+    "authors": [
+        {
+            "name": "loikt",
+            "email": "loiktpc05314@fpt.edu.vn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+    
+}
