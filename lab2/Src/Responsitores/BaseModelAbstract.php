@@ -1,0 +1,20 @@
+<?php
+
+
+namespace Src\Responsitores ;
+
+// lớp trưừ tượng 
+abstract class BaseModelAbstract{
+
+    protected $model ; 
+    
+
+
+    public function Message() {
+        return 'this is mess đây là kế thừa lớp asbtract' ;
+    }
+    // phương thức trừu tượng 
+    abstract public function show()  ;
+
+    
+}
