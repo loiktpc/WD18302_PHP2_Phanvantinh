@@ -15,6 +15,10 @@ abstract class BaseModelAbstract{
     }
     // phương thức trừu tượng 
     abstract public function show()  ;
+    abstract public function GetAll_Product()  ;
+    abstract public function Insert_Product()  ;
+    abstract public function Edit_Product()  ;
+    abstract public function Delete_Product()  ;
 
     
 }
